@@ -38,6 +38,6 @@
 # lab_print = "".join([i] for lab[i] in lab)
 # print(lab_print)
 
-l2 = [[116, 111], [116, 111]]
-str2 = ''.join(chr(i) for l2[i] in l2)
-print(str2)
+# l2 = [[116, 111], [116, 111]]
+# str2 = ''.join(chr(i) for l2[i] in l2)
+# print(str2)
