@@ -24,11 +24,20 @@
 # print (lab_x)
 
 
-lab_x_0 = [[chr(69)], [chr(124)], ["°"]]    # en abs 0
-lab_x_1 = [[chr(95)], [chr(95)], [chr(95)]]     # en abs 1
+# lab_x_0 = ["*", chr(124), "°"]    # en abs 0
+# lab_x_1 = [chr(95), chr(95), chr(95)]     # en abs 1
 
-lab_map = [[lab_x_0], [lab_x_1]]
+# lab_x_0[0] = "!"     # = y_0 x_0
 
-lab_map_print = ''.join(lab_map)
-print (lab_map_print)
+# print("".join(lab_x_0))
+# print("".join(lab_x_1))
 
+# lab = [["x0_y0", "x0_y1"],["x1_y0"],["x1_y1"]]
+# print(lab)
+
+# lab_print = "".join([i] for lab[i] in lab)
+# print(lab_print)
+
+l2 = [[116, 111], [116, 111]]
+str2 = ''.join(chr(i) for l2[i] in l2)
+print(str2)
